@@ -1,22 +1,26 @@
 // Types
+import offices from './types/offices.js';
+import persons from './types/persons.js';
+import expertises from './types/expertises.js';
 import posts from './types/posts.js';
 import categories from './types/categories.js';
-import authors from './types/authors.js';
 import pages from './types/pages.js';
 
 import indexes from './types/indexes.js';
 
 // Datas
-import menu from './datas/menu.js';
 import config from './datas/config.js';
+import statutes from './datas/statutes.js';
 
 export const collections = [
+    offices,
+    persons,
+    expertises,
     posts,
     categories,
-    authors,
     pages,
     indexes,
-    menu,
+    // statutes,
     config
 ]
 

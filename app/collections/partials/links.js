@@ -3,7 +3,7 @@ import { url } from './url.js'
 import { blank } from './blank.js'
 
 export const links = {
-    name: 'link',
+    name: 'links',
     label: 'Liens',
     widget: 'list',
     i18n: true,

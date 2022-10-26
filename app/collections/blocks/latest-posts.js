@@ -1,6 +1,6 @@
 import { title } from '../partials/title.js'
 
-export const latestposts = {
+export const blocklatestposts = {
     name: 'latest-posts',
     label: 'Dernières actualités',
     widget: 'object',

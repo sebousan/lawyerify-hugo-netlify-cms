@@ -1,7 +1,10 @@
-import { cta } from './cta.js'
+import { blockcta } from './cta.js'
+import { blockeditorial } from './editorial.js'
+import { blockembed } from './embed.js'
+import { blockimage } from './image.js'
+import { blocklatestposts } from './latest-posts.js'
+import { blockpersons } from './persons.js'
 import { blockquote } from './blockquote.js'
-import { editorial } from './editorial.js'
-import { latestposts } from './latest-posts.js'
 
 export const blocks = {
     name: 'blocks',
@@ -9,9 +12,12 @@ export const blocks = {
     label_singular: 'Bloc de contenu',
     widget: 'list',
     types: [
-        cta,
-        blockquote,
-        editorial,
-        latestposts
+        blockcta,
+        blockeditorial,
+        blockembed,
+        blockimage,
+        blocklatestposts,
+        blockpersons,
+        blockquote
     ]
 }

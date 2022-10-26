@@ -1,15 +1,15 @@
 import { title } from '../partials/title.js'
-import { cta } from '../partials/cta.js'
+import { statutes } from '../partials/statutes.js'
 
-export const blockcta = {
-    name: 'cta',
-    label: 'Bouton',
+export const blockpersons = {
+    name: 'persons',
+    label: 'Liste de personnes',
     widget: 'object',
     required: false,
     i18n: true,
     collapsed: true,
     fields: [
         title,
-        cta
+        statutes
     ]
 }

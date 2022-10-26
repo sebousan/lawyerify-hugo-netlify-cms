@@ -5,7 +5,7 @@
     --margin: 20px;
 }
 
-input[type="text"],
+input[type="text"]:not([aria-autocomplete="list"]),
 textarea {
     border: 1px solid var(--grey) !important;
     border-radius: var(--border-radius) !important;
@@ -24,7 +24,6 @@ textarea {
 }
 [class*="ControlContainer"] > div {
     border: 1px dashed var(--grey);
-    overflow: hidden;
     padding-bottom: 0 !important;
 }
 
@@ -97,4 +96,9 @@ label + [class*="-DateTimeControl"] {
 
 [class*="-ImageWrapper-checkerboard"] {
     float: left;
+}
+
+
+[class*="-TreeNavLink-TreeNavLink"] > div > div:last-child {
+    display: none;
 }

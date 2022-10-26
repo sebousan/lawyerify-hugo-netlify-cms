@@ -1,15 +1,14 @@
 import { title } from '../partials/title.js'
-import { cta } from '../partials/cta.js'
 
-export const blockcta = {
-    name: 'cta',
-    label: 'Bouton',
+export const blockembed = {
+    name: 'embed',
+    label: 'Embed',
     widget: 'object',
     required: false,
     i18n: true,
     collapsed: true,
     fields: [
         title,
-        cta
+        { name: 'code', label: 'Code', widget: 'text', i18n: 'duplicate' }
     ]
 }

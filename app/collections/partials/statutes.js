@@ -1,8 +1,8 @@
-export const authors = {
-    name: 'authors',
-    label: 'Authors',
+export const statutes = {
+    name: 'statutes',
+    label: 'Satuts',
     widget: 'relation',
-    collection: 'persons',
+    collection: 'statutes',
     search_fields: ['title'],
     value_field: '{{slug}}',
     display_fields: ['title'],

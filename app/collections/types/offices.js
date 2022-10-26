@@ -2,21 +2,21 @@ import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
 import { title } from '../partials/title.js'
 import { description } from '../partials/description.js'
-import { statutes } from '../partials/statutes.js'
 import { image } from '../partials/image.js'
+import { address } from '../partials/address.js'
 import { contact } from '../partials/contact.js'
 import { body } from '../partials/body.js'
 
-const persons = {
-    name: 'persons',
-    label: 'Personnes',
-    label_singular: 'Personne',
-    folder: 'content/persons',
+const offices = {
+    name: 'offices',
+    label: 'Cabinets',
+    label_singular: 'Cabinet',
+    folder: 'content/offices',
     create: true,
-    description: 'Toutes les personnes',
+    description: 'Tous les cabinets',
 
     editor: { preview: false },
-    // preview_path: "/persons/",
+    // preview_path: "/offices/",
 
     // #i18n: true,
 
@@ -31,12 +31,12 @@ const persons = {
         index,
         draft,
         title,
-        statutes,
         description,
-        image,
+        address,
         contact,
+        image,
         body
     ]
 }
 
-export default persons
+export default offices

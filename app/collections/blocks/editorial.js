@@ -1,9 +1,9 @@
 import { title } from '../partials/title.js'
-import { text } from '../partials/text.js'
-import { cta } from './partials/cta.js'
+import { textmarkdown } from '../partials/text-markdown.js'
+import { cta } from '../partials/cta.js'
 import { image } from '../partials/image.js'
 
-export const editorial = {
+export const blockeditorial = {
     name: 'editorial',
     label: 'Editorial',
     widget: 'object',
@@ -21,7 +21,7 @@ export const editorial = {
                 { label: 'image à gauche / texte à droite', value: 'rtl' }
             ]
         },
-        text,
+        textmarkdown,
         cta,
         image
     ]

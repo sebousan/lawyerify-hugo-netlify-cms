@@ -2,11 +2,12 @@ import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
 import { date } from '../partials/date.js'
 import { title } from '../partials/title.js'
-import { categories } from '../partials/categories.js'
-import { authors } from '../partials/authors.js'
 import { description } from '../partials/description.js'
 import { image } from '../partials/image.js'
 import { body } from '../partials/body.js'
+import { persons } from '../partials/persons.js'
+import { categories } from '../partials/categories.js'
+import { url } from '../partials/url.js'
 
 const posts = {
     name: 'posts',
@@ -30,12 +31,23 @@ const posts = {
 
         index,
         draft,
-        date,
         title,
+        date,
         categories,
-        authors,
-        image,
+        persons,
         description,
+        image,
+        {
+            name: 'press',
+            label: 'Source',
+            widget: 'object',
+            collapsed: true,
+            required: false,
+            fields: [
+                title,
+                url
+            ]
+        },
         body
     ]
 }
