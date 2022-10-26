@@ -1,3 +1,5 @@
+import { links } from '../partials/links.js'
+
 const menu = {
     name: 'menu',
     label: 'Menus',
@@ -12,80 +14,28 @@ const menu = {
             label: 'Principal',
             file: 'data/menu/primary.yml',
             i18n: true,
-            fields: [
-                {
-                    name: 'item',
-                    label: 'Links',
-                    widget: 'list',
-                    i18n: true,
-                    required: false,
-                    fields: [
-                        { name: 'title', label: 'Titre', widget: 'string', i18n: true },
-                        { name: 'link', label: 'Lien', widget: 'string', i18n: true },
-                        { name: 'blank', label: 'Blank ?', widget: 'boolean', default: false, required: false, i18n: 'duplicate' }
-                    ]
-                }
-            ]
+            fields: [ links ]
         },
         {
             name: 'secondary',
             label: 'Secondaire',
             file: 'data/menu/secondary.yml',
             i18n: true,
-            fields: [
-                {
-                    name: 'item',
-                    label: 'Links',
-                    widget: 'list',
-                    i18n: true,
-                    required: false,
-                    fields: [
-                        { name: 'title', label: 'Titre', widget: 'string', i18n: true },
-                        { name: 'link', label: 'Lien', widget: 'string', i18n: true },
-                        { name: 'blank', label: 'Blank ?', widget: 'boolean', default: false, required: false, i18n: 'duplicate' }
-                    ]
-                }
-            ]
+            fields: [ links ]
         },
         {
             name: 'legal',
-            label: 'Légal',
+            label: 'Légal (mentions, politiques…)',
             file: 'data/menu/legal.yml',
             i18n: true,
-            fields: [
-                {
-                    name: 'item',
-                    label: 'Links',
-                    widget: 'list',
-                    i18n: true,
-                    required: false,
-                    fields: [
-                        { name: 'title', label: 'Titre', widget: 'string', i18n: true },
-                        { name: 'link', label: 'Lien', widget: 'string', i18n: true },
-                        { name: 'blank', label: 'Blank ?', widget: 'boolean', default: false, required: false, i18n: 'duplicate' }
-                    ]
-                }
-            ]
+            fields: [ links ]
         },
         {
             name: 'social',
             label: 'Réseaux sociaux',
             file: 'data/menu/social.yml',
             i18n: true,
-            fields: [
-                {
-                    name: 'item',
-                    label: 'Links',
-                    widget: 'list',
-                    i18n: true,
-                    required: false,
-                    fields: [
-                        { name: 'title', label: 'Titre', widget: 'string', i18n: true },
-                        { name: 'link', label: 'Lien', widget: 'string', i18n: true },
-                        { name: 'blank', label: 'Blank ?', widget: 'boolean', default: false, required: false, i18n: 'duplicate' }
-                    ]
-                }
-            ]
+            fields: [ links ]
         }
 
     ]

@@ -1,19 +1,15 @@
-import { text } from '../partials/text.js'
+import { title } from '../partials/title.js'
+import { cta } from '../partials/cta.js'
 
 export const cta = {
     name: 'cta',
-    label: 'Bouton',
+    label: 'CTA',
     widget: 'object',
     required: false,
     i18n: true,
     collapsed: true,
     fields: [
-        text,
-        {
-            name: 'url',
-            label: 'URL',
-            widget: 'string',
-            i18n: true
-        }
+        title,
+        cta
     ]
 }

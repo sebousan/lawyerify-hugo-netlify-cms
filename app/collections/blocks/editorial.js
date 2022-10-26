@@ -1,6 +1,6 @@
 import { title } from '../partials/title.js'
 import { text } from '../partials/text.js'
-import { cta } from './cta.js'
+import { cta } from './partials/cta.js'
 import { image } from '../partials/image.js'
 
 export const editorial = {

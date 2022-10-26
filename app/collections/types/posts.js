@@ -2,6 +2,8 @@ import { index } from '../partials/index.js'
 import { draft } from '../partials/draft.js'
 import { date } from '../partials/date.js'
 import { title } from '../partials/title.js'
+import { categories } from '../partials/categories.js'
+import { authors } from '../partials/authors.js'
 import { description } from '../partials/description.js'
 import { image } from '../partials/image.js'
 import { body } from '../partials/body.js'
@@ -28,10 +30,10 @@ const posts = {
 
         index,
         draft,
-        title,
         date,
-        { name: 'categories', label: 'Categories', widget: 'relation', collection: 'categories', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
-        { name: 'authors', label: 'Authors', widget: 'relation', collection: 'authors', search_fields: ['title'], value_field: '{{slug}}', display_fields: ['title'], required: false },
+        title,
+        categories,
+        authors,
         image,
         description,
         body
