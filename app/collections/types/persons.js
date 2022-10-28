@@ -3,6 +3,7 @@ import { draft } from '../partials/draft.js'
 import { title } from '../partials/title.js'
 import { description } from '../partials/description.js'
 import { statutes } from '../partials/statutes.js'
+import { expertises } from '../partials/expertises.js'
 import { image } from '../partials/image.js'
 import { contact } from '../partials/contact.js'
 import { body } from '../partials/body.js'
@@ -32,6 +33,7 @@ const persons = {
         draft,
         title,
         statutes,
+        expertises,
         description,
         image,
         contact,

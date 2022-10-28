@@ -17,8 +17,8 @@ export const statutes = {
         { label: 'Associé', value: 'associate' },
         { label: 'Collaborateur', value: 'collaboratorr' },
         { label: 'Juriste', value: 'jurist' },
-        { label: 'Secrétaire', value: 'secretary' }
-        { label: 'Stagiaire', value: 'trainee' },
+        { label: 'Secrétaire', value: 'secretary' },
+        { label: 'Stagiaire', value: 'trainee' }
     ],
-    required: false
+    required: true
 }

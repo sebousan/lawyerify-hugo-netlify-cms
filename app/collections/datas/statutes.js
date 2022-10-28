@@ -1,24 +1,24 @@
-import { title } from '../partials/title.js'
+// import { title } from '../partials/title.js'
 
-const statutes = {
-    name: 'statutes',
-    label: 'Statuts (métier)',
-    label_singular: 'Statut',
-    folder: 'data/statutes',
-    create: true,
-    description: 'Les différents satuts des personnes',
-    format: 'yml',
+// const statutes = {
+//     name: 'statutes',
+//     label: 'Statuts (métier)',
+//     label_singular: 'Statut',
+//     folder: 'data/statutes',
+//     create: true,
+//     description: 'Les différents satuts des personnes',
+//     format: 'yml',
 
-    editor: { preview: false },
+//     editor: { preview: false },
 
-    // #i18n: true,
+//     // #i18n: true,
 
-    slug: '{{slug}}',
+//     slug: '{{slug}}',
 
-    fields: [
-        title
-    ]
+//     fields: [
+//         title
+//     ]
 
-}
+// }
 
-export default statutes
+// export default statutes
