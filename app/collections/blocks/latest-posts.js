@@ -1,4 +1,5 @@
-import { title } from '../partials/title.js'
+import { title } from '../fields/title.js'
+import { count } from '../fields/count.js'
 
 export const blocklatestposts = {
     name: 'latest-posts',
@@ -8,6 +9,7 @@ export const blocklatestposts = {
     i18n: true,
     collapsed: true,
     fields: [
-        title
+        title,
+        count
     ]
 }

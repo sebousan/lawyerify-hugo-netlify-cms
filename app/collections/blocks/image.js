@@ -1,4 +1,4 @@
-import { image } from '../partials/image.js'
+import { image } from '../fields/image.js'
 
 export const blockimage = {
     name: 'image',

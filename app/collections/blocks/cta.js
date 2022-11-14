@@ -1,5 +1,5 @@
-import { title } from '../partials/title.js'
-import { cta } from '../partials/cta.js'
+import { title } from '../fields/title.js'
+import { cta } from '../fields/cta.js'
 
 export const blockcta = {
     name: 'cta',

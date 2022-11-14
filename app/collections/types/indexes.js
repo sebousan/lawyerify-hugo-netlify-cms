@@ -1,4 +1,4 @@
-import { title } from '../partials/title.js'
+import { title } from '../fields/title.js'
 import { hero } from '../blocks/hero.js'
 import { blocks } from '../blocks/blocks.js'
 

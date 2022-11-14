@@ -1,5 +1,5 @@
-import { title } from '../partials/title.js'
-import { statutes } from '../partials/statutes.js'
+import { title } from '../fields/title.js'
+import { statutes } from '../fields/statutes.js'
 
 export const blockpersons = {
     name: 'persons',

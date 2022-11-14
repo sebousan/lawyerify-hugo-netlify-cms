@@ -1,7 +1,7 @@
-import { index } from '../partials/index.js'
-import { title } from '../partials/title.js'
-import { description } from '../partials/description.js'
-import { body } from '../partials/body.js'
+import { index } from '../fields/index.js'
+import { title } from '../fields/title.js'
+import { description } from '../fields/description.js'
+import { body } from '../fields/body.js'
 
 const expertises = {
     name: 'expertises',

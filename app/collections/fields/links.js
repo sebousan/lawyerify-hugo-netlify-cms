@@ -1,4 +1,4 @@
-import { text } from './text.js'
+import { title } from './title.js'
 import { url } from './url.js'
 import { blank } from './blank.js'
 
@@ -9,7 +9,7 @@ export const links = {
     i18n: true,
     required: false,
     fields: [
-        text,
+        title,
         url,
         blank
     ]

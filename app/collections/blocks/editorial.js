@@ -1,7 +1,7 @@
-import { title } from '../partials/title.js'
-import { textmarkdown } from '../partials/text-markdown.js'
-import { cta } from '../partials/cta.js'
-import { image } from '../partials/image.js'
+import { title } from '../fields/title.js'
+import { textmarkdown } from '../fields/text-markdown.js'
+import { cta } from '../fields/cta.js'
+import { image } from '../fields/image.js'
 
 export const blockeditorial = {
     name: 'editorial',

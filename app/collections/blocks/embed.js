@@ -1,4 +1,4 @@
-import { title } from '../partials/title.js'
+import { title } from '../fields/title.js'
 
 export const blockembed = {
     name: 'embed',

@@ -1,10 +1,9 @@
-import { index } from '../partials/index.js'
-import { draft } from '../partials/draft.js'
-import { layout } from '../partials/layout.js'
-import { title } from '../partials/title.js'
-import { image } from '../partials/image.js'
-import { description } from '../partials/description.js'
-import { body } from '../partials/body.js'
+import { index } from '../fields/index.js'
+import { draft } from '../fields/draft.js'
+import { title } from '../fields/title.js'
+import { image } from '../fields/image.js'
+import { description } from '../fields/description.js'
+import { body } from '../fields/body.js'
 
 const pages = {
     name: 'pages',
@@ -27,7 +26,6 @@ const pages = {
 
         index,
         draft,
-        // layout,
         title,
         description,
         image,

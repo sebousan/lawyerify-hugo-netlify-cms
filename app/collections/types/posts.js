@@ -1,13 +1,13 @@
-import { index } from '../partials/index.js'
-import { draft } from '../partials/draft.js'
-import { date } from '../partials/date.js'
-import { title } from '../partials/title.js'
-import { description } from '../partials/description.js'
-import { image } from '../partials/image.js'
-import { body } from '../partials/body.js'
-import { persons } from '../partials/persons.js'
-import { categories } from '../partials/categories.js'
-import { url } from '../partials/url.js'
+import { index } from '../fields/index.js'
+import { draft } from '../fields/draft.js'
+import { date } from '../fields/date.js'
+import { title } from '../fields/title.js'
+import { description } from '../fields/description.js'
+import { image } from '../fields/image.js'
+import { body } from '../fields/body.js'
+import { persons } from '../fields/persons.js'
+import { categories } from '../fields/categories.js'
+import { press } from '../fields/press.js'
 
 const posts = {
     name: 'posts',
@@ -28,7 +28,6 @@ const posts = {
     filter: { field: 'index', value: false },
 
     fields: [
-
         index,
         draft,
         title,
@@ -37,17 +36,7 @@ const posts = {
         persons,
         description,
         image,
-        {
-            name: 'press',
-            label: 'Source',
-            widget: 'object',
-            collapsed: true,
-            required: false,
-            fields: [
-                title,
-                url
-            ]
-        },
+        press,
         body
     ]
 }

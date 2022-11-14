@@ -1,11 +1,11 @@
-import { index } from '../partials/index.js'
-import { draft } from '../partials/draft.js'
-import { title } from '../partials/title.js'
-import { description } from '../partials/description.js'
-import { image } from '../partials/image.js'
-import { address } from '../partials/address.js'
-import { contact } from '../partials/contact.js'
-import { body } from '../partials/body.js'
+import { index } from '../fields/index.js'
+import { draft } from '../fields/draft.js'
+import { title } from '../fields/title.js'
+import { description } from '../fields/description.js'
+import { image } from '../fields/image.js'
+import { address } from '../fields/address.js'
+import { contact } from '../fields/contact.js'
+import { body } from '../fields/body.js'
 
 const offices = {
     name: 'offices',

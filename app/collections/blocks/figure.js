@@ -1,7 +1,7 @@
-import { image } from '../partials/image.js'
-import { url } from '../partials/url.js'
-import { title } from '../partials/title.js'
-import { text } from '../partials/text.js'
+import { image } from '../fields/image.js'
+import { url } from '../fields/url.js'
+import { title } from '../fields/title.js'
+import { text } from '../fields/text.js'
 
 export const blockfigure = {
     name: 'figure',

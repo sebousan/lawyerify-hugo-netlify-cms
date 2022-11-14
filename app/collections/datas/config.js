@@ -32,28 +32,36 @@ const config = {
             label: 'Menu principal',
             file: 'data/menu/primary.yml',
             i18n: true,
-            fields: [ links ]
+            fields: [
+                links
+            ]
         },
         {
             name: 'secondary',
             label: 'Menu secondaire',
             file: 'data/menu/secondary.yml',
             i18n: true,
-            fields: [ links ]
+            fields: [
+                links
+            ]
         },
         {
             name: 'legal',
             label: 'Menu légal (mentions, politiques…)',
             file: 'data/menu/legal.yml',
             i18n: true,
-            fields: [ links ]
+            fields: [
+                links
+            ]
         },
         {
             name: 'social',
             label: 'Menu réseaux sociaux',
             file: 'data/menu/social.yml',
             i18n: true,
-            fields: [ links ]
+            fields: [
+                links
+            ]
         },
         {
             name: 'seo',

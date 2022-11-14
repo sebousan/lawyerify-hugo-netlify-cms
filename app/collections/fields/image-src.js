@@ -1,4 +1,4 @@
-export const imagesimple = {
+export const image_src = {
     name: 'src',
     label: 'Image',
     widget: 'image',

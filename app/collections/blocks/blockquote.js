@@ -1,6 +1,6 @@
-import { title } from '../partials/title.js'
-import { text } from '../partials/text.js'
-import { image } from '../partials/image.js'
+import { title } from '../fields/title.js'
+import { text } from '../fields/text.js'
+import { image } from '../fields/image.js'
 
 export const blockquote = {
     name: 'blockquote',
