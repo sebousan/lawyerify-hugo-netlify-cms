@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Material+Icons");
+
 :root {
     --primary-color: #060c84;
     --text-color: black;
@@ -132,4 +134,46 @@ div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
 
 [class*="-TreeNavLink-TreeNavLink"] > div > div:nth-child(2) {
     display: none;
+}
+
+
+aside ul [class*="-IconWrapper"]::before {
+    content: 'description';
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+aside ul [class*="-IconWrapper"] svg {
+    display: none;
+}
+aside [href="#/collections/config"] span::before {
+    content: 'settings';
+}
+aside [href="#/collections/posts"] span::before {
+    content: 'post_add';
+}
+aside [href="#/collections/persons"] span::before {
+    content: 'people';
+}
+aside [href="#/collections/categories"] span::before {
+    content: 'category';
+}
+aside [href="#/collections/expertises"] span::before {
+    content: 'gavel';
+}
+aside [href="#/collections/offices"] span::before {
+    content: 'business';
+}
+aside [href="#/collections/realestates"] span::before {
+    content: 'location_city';
 }
