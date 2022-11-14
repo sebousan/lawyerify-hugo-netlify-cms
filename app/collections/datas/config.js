@@ -1,7 +1,7 @@
-// import { title } from '../partials/title.js'
-import { links } from '../partials/links.js'
-import { description } from '../partials/description.js'
-import { imagesimple } from '../partials/image-simple.js'
+// import { title } from '../fields/title.js'
+import { links } from '../fields/links.js'
+import { description } from '../fields/description.js'
+import { image_src } from '../fields/image-src.js'
 
 const config = {
     name: 'config',
@@ -76,7 +76,7 @@ const config = {
                     fields: [
                         { name: 'title', label: 'Nom du site', widget: 'string', i18n: true },
                         description,
-                        imagesimple
+                        image_src
                     ]
                 }
             ]

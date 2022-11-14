@@ -1,9 +1,10 @@
+import { direction } from '../fields/direction.js'
 import { title } from '../fields/title.js'
-import { textmarkdown } from '../fields/text-markdown.js'
+import { text_markdown } from '../fields/text-markdown.js'
 import { cta } from '../fields/cta.js'
 import { image } from '../fields/image.js'
 
-export const blockeditorial = {
+export const block_editorial = {
     name: 'editorial',
     label: 'Editorial',
     widget: 'object',
@@ -12,16 +13,8 @@ export const blockeditorial = {
     collapsed: true,
     fields: [
         title,
-        {
-            name: 'direction',
-            title: 'Direction',
-            widget: 'select',
-            options: [
-                { label: 'texte à gauche / image à droite', value: 'ltr' },
-                { label: 'image à gauche / texte à droite', value: 'rtl' }
-            ]
-        },
-        textmarkdown,
+        direction,
+        text_markdown,
         cta,
         image
     ]

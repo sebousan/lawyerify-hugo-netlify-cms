@@ -1,7 +1,7 @@
 import { title } from '../fields/title.js'
 import { statutes } from '../fields/statutes.js'
 
-export const blockpersons = {
+export const block_persons = {
     name: 'persons',
     label: 'Liste de personnes',
     widget: 'object',
