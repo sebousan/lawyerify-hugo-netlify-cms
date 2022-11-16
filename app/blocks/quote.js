@@ -1,10 +1,11 @@
+import { background } from '../fields/background.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { image } from '../fields/image.js'
 
 export const block_quote = {
     name: 'blockquote',
-    label: 'Bloc citation',
+    label: 'Citation',
     widget: 'object',
     required: false,
     i18n: true,
@@ -24,5 +25,6 @@ export const block_quote = {
                 image
             ]
         },
+        background
     ]
 }
