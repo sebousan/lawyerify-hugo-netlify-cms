@@ -1,8 +1,8 @@
-import { background } from '../fields/background.js'
 import { material_icons } from '../fields/material-icons.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
 import { column } from '../fields/column.js'
+import { background } from '../fields/background.js'
 
 export const block_infos = {
     name: 'infos',

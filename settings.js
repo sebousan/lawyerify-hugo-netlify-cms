@@ -19,6 +19,7 @@ export const availableBlocks = [
     'embed',
     'figure',
     'infos',
+    'persons',
     'paragraph',
     'gauges',
     'title'

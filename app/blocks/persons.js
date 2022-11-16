@@ -1,5 +1,6 @@
 import { title } from '../fields/title.js'
 import { statutes } from '../fields/statutes.js'
+import { background } from '../fields/background.js'
 
 export const block_persons = {
     name: 'persons',
@@ -10,6 +11,7 @@ export const block_persons = {
     collapsed: true,
     fields: [
         title,
-        statutes
+        statutes,
+        background
     ]
 }

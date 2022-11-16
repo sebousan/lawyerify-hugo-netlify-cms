@@ -1,5 +1,6 @@
 import { title } from '../fields/title.js'
 import { text_markdown } from '../fields/text-markdown.js'
+import { background } from '../fields/background.js'
 
 export const block_paragraph = {
     name: 'paragraph',
@@ -10,6 +11,7 @@ export const block_paragraph = {
     collapsed: true,
     fields: [
         title,
-        text_markdown
+        text_markdown,
+        background
     ]
 }

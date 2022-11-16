@@ -1,5 +1,6 @@
 import { title } from '../fields/title.js'
 import { cta } from '../fields/cta.js'
+import { background } from '../fields/background.js'
 
 export const block_cta = {
     name: 'cta',
@@ -10,6 +11,7 @@ export const block_cta = {
     collapsed: true,
     fields: [
         title,
-        cta
+        cta,
+        background
     ]
 }
