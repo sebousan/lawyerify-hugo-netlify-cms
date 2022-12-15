@@ -1,7 +1,10 @@
 // import { title } from '../fields/title.js'
 import { links } from '../fields/links.js'
 import { description } from '../fields/description.js'
+import { text_markdown } from '../fields/text-markdown.js'
+import { state } from '../fields/state.js'
 import { image_src } from '../fields/image-src.js'
+import { embed } from '../fields/embed.js'
 
 const config = {
     name: 'config',
@@ -64,6 +67,16 @@ const config = {
             ]
         },
         {
+            name: 'top',
+            label: 'Bannière d’information en haut du site',
+            file: 'data/top.yml',
+            i18n: true,
+            fields: [
+                text_markdown,
+                state
+            ]
+        },
+        {
             name: 'seo',
             label: 'SEO',
             file: 'config/_default/languages.yml',
@@ -79,6 +92,15 @@ const config = {
                         image_src
                     ]
                 }
+            ]
+        },
+        {
+            name: 'analytics',
+            label: 'Scripts analytics',
+            file: 'data/scripts.yml',
+            i18n: true,
+            fields: [
+                embed
             ]
         }
 

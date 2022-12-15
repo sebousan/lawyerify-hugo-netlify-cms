@@ -1,6 +1,6 @@
-import { text } from './text.js'
-import { url } from './url.js'
-import { blank } from './blank.js'
+import { text } from '../fields/text.js'
+import { url } from '../fields/url.js'
+import { blank } from '../fields/blank.js'
 
 export const cta = {
     name: 'cta',
@@ -9,6 +9,7 @@ export const cta = {
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{text}}',
     fields: [
         text,
         url,

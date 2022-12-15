@@ -1,5 +1,5 @@
 export const projects = {
-    name: 'projects',
+    name: 'items',
     label: 'Projets',
     widget: 'relation',
     collection: 'projects',

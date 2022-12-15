@@ -1,5 +1,6 @@
 import { title } from '../fields/title.js'
-import { code } from '../fields/code.js'
+import { text } from '../fields/text.js'
+import { embed } from '../fields/embed.js'
 import { background } from '../fields/background.js'
 
 export const block_embed = {
@@ -9,9 +10,11 @@ export const block_embed = {
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{title}}',
     fields: [
         title,
-        code,
+        text,
+        embed,
         background
     ]
 }

@@ -2,10 +2,11 @@ import { index } from '../fields/index.js'
 import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
-import { image } from '../fields/image.js'
+import { featured_image } from '../fields/featured-image.js'
 import { address } from '../fields/address.js'
 import { contact } from '../fields/contact.js'
 import { body } from '../fields/body.js'
+import { blocks } from '../blocks/blocks.js'
 
 const offices = {
     name: 'offices',
@@ -34,8 +35,9 @@ const offices = {
         description,
         address,
         contact,
-        image,
-        body
+        featured_image,
+        body,
+        blocks
     ]
 }
 

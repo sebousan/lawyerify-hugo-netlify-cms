@@ -4,12 +4,13 @@ import { image } from '../fields/image.js'
 import { background } from '../fields/background.js'
 
 export const block_quote = {
-    name: 'blockquote',
+    name: 'quote',
     label: 'Citation',
     widget: 'object',
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{text}}',
     fields: [
         text,
         {

@@ -3,11 +3,11 @@ import { draft } from '../fields/draft.js'
 import { date } from '../fields/date.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
-import { image } from '../fields/image.js'
+import { featured_image } from '../fields/featured-image.js'
 import { body } from '../fields/body.js'
-import { persons } from '../fields/persons.js'
 import { categories } from '../fields/categories.js'
-import { press } from '../fields/press.js'
+import { tags } from '../fields/tags.js'
+import { authors } from '../fields/authors.js'
 
 const posts = {
     name: 'posts',
@@ -30,13 +30,13 @@ const posts = {
     fields: [
         index,
         draft,
-        title,
         date,
-        categories,
-        persons,
+        title,
         description,
-        image,
-        press,
+        categories,
+        tags,
+        authors,
+        featured_image,
         body
     ]
 }

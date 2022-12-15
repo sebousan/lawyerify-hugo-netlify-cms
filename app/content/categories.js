@@ -21,10 +21,8 @@ const categories = {
     filter: { field: 'index', value: false },
 
     fields: [
-
         index,
         title
-
     ]
 }
 

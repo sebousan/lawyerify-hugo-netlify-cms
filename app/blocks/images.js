@@ -1,17 +1,20 @@
 import { title } from '../fields/title.js'
-import { statutes } from '../fields/statutes.js'
+import { text } from '../fields/text.js'
+import { images } from '../fields/images.js'
 import { background } from '../fields/background.js'
 
-export const block_persons = {
-    name: 'persons',
-    label: 'Liste de personnes',
+export const block_images = {
+    name: 'images',
+    label: 'Liste d’images',
     widget: 'object',
     required: false,
     i18n: true,
     collapsed: true,
+    summary: '{{title}}',
     fields: [
         title,
-        statutes,
+        text,
+        images,
         background
     ]
 }

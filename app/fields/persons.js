@@ -4,7 +4,7 @@ export const persons = {
     widget: 'relation',
     collection: 'persons',
     search_fields: ['title'],
-    value_field: '{{slug}}',
+    value_field: 'title',
     display_fields: ['title'],
     multiple: true,
     required: false

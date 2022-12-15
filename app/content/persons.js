@@ -4,7 +4,7 @@ import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { statutes } from '../fields/statutes.js'
 import { expertises } from '../fields/expertises.js'
-import { image } from '../fields/image.js'
+import { featured_image } from '../fields/featured-image.js'
 import { contact } from '../fields/contact.js'
 import { body } from '../fields/body.js'
 
@@ -35,7 +35,7 @@ const persons = {
         statutes,
         expertises,
         description,
-        image,
+        featured_image,
         contact,
         body
     ]

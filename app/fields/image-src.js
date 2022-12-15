@@ -6,10 +6,11 @@ export const image_src = {
     i18n: 'duplicate',
     media_library: {
         config: {
-            max_file_size: 512000
+            // max_file_size: 700000 // 700ko
+            max_file_size: 2000000 // 2Mo
         }
     },
-    hint: '500Ko max, Compresser l’image avant de l’envoyer : https://tinypng.com/',
+    hint: '700Ko max, Compresser l’image avant de l’envoyer : https://tinypng.com/',
     media_folder: '/assets/images/uploads',
     public_folder: '/images/uploads'
 }

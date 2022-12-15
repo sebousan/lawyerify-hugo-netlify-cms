@@ -4,10 +4,10 @@ import { blocks } from '../blocks/blocks.js'
 
 const indexes = {
     name: 'indexes',
-    label: 'Index des pages',
+    label: 'Rubriques',
     folder: 'content',
     create: false,
-    description: 'Toutes les pages principales',
+    description: 'La page principale de chaque rubrique',
 
     editor: { preview: false },
 
@@ -18,7 +18,6 @@ const indexes = {
     summary: '{{title}}',
 
     fields: [
-
         { name: 'index', label: 'Index', widget: 'hidden', default: true, required: false, i18n: 'duplicate' },
         title,
         hero,
