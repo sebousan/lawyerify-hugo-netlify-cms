@@ -3,5 +3,6 @@ export const linkedin = {
     label: 'Linkedin',
     widget: 'string',
     required: false,
-    i18n: 'duplicate'
+    i18n: 'duplicate',
+    hint: 'https…'
 }
