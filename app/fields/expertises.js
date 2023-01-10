@@ -4,7 +4,8 @@ export const expertises = {
     widget: 'relation',
     collection: 'expertises',
     search_fields: ['title'],
-    value_field: '{{slug}}',
+    value_field: '{{title}}',
     display_fields: ['title'],
-    required: false
+    required: false,
+    i18n: 'duplicate'
 }

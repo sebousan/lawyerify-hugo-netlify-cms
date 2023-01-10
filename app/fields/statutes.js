@@ -15,7 +15,7 @@ export const statutes = {
     widget: 'select',
     options: [
         { label: 'Associé', value: 'associate' },
-        { label: 'Collaborateur', value: 'collaboratorr' },
+        { label: 'Collaborateur', value: 'collaborator' },
         { label: 'Juriste', value: 'jurist' },
         { label: 'Secrétaire', value: 'secretary' },
         { label: 'Stagiaire', value: 'trainee' }

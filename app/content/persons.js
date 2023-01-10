@@ -24,7 +24,7 @@ const persons = {
     summary: '{{title}}',
 
     slug: '{{slug}}',
-    path: '{{slug}}/_index',
+    // path: '{{slug}}/_index',
 
     fields: [
         isNotIndex,

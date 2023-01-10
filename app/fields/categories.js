@@ -1,6 +1,6 @@
 export const categories = {
     name: 'categories',
-    label: 'Categories',
+    label: 'Catégories',
     widget: 'relation',
     collection: 'categories',
     search_fields: ['title'],

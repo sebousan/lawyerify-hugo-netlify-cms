@@ -17,7 +17,7 @@ const tags = {
 
     nested: { depth: 2 },
     filter: { field: 'isIndex', value: false },
-    summary: '{{title}} — {{year}}',
+    summary: '{{title}}',
 
     fields: [
         isNotIndex,
