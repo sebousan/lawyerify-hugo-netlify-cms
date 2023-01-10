@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
 
 const tags = {
@@ -10,18 +10,17 @@ const tags = {
     description: 'Toutes les tags d’actualités',
 
     editor: { preview: false },
-    // preview_path: "/tags/",
-
     // #i18n: true,
 
     slug: '{{slug}}',
     path: '{{slug}}/_index',
 
     nested: { depth: 2 },
-    filter: { field: 'index', value: false },
+    filter: { field: 'isIndex', value: false },
+    summary: '{{title}} — {{year}}',
 
     fields: [
-        index,
+        isNotIndex,
         title
     ]
 }

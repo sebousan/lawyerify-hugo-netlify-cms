@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isPage } from '../fields/is-page.js'
 import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { hero } from '../fields/hero.js'
@@ -11,21 +11,21 @@ const pages = {
     name: 'pages',
     label: 'Pages',
     label_singular: 'Page',
-    folder: 'content/pages',
+    folder: 'content',
     create: true,
 
     editor: { preview: false },
-    // preview_path: "/pages/",
-
     // #i18n: true,
 
     slug: '{{slug}}',
     path: '{{slug}}/_index',
+    summary: '{{title}}',
 
-    nested: { depth: 3 },
+    nested: { depth: 4 },
+    filter: { field: 'isPage', value: true },
 
     fields: [
-        index,
+        isPage,
         draft,
         title,
         description,

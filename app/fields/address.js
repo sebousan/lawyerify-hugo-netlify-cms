@@ -3,12 +3,12 @@ export const address = {
     label: 'Adresse',
     widget: 'object',
     required: false,
-    // i18n: true,
+    i18n: true,
     collapsed: true,
     fields: [
-        { name: 'street', label: 'Numéro et nom de rue', widget: 'string', required: false },
-        { name: 'zipcode', label: 'Code postal', widget: 'string', required: false },
-        { name: 'city', label: 'Ville', widget: 'string', required: false },
-        { name: 'country', label: 'Pays', widget: 'string', required: false }
+        { name: 'street', label: 'Numéro et nom de rue', widget: 'string', required: false, i18n: 'duplicate' },
+        { name: 'zipcode', label: 'Code postal', widget: 'string', required: false, i18n: 'duplicate' },
+        { name: 'city', label: 'Ville', widget: 'string', required: false, i18n: 'duplicate' },
+        { name: 'country', label: 'Pays', widget: 'string', required: false, i18n: 'duplicate' }
     ]
 }

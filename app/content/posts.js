@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isNotIndex } from '../fields/is-not-index.js'
 import { draft } from '../fields/draft.js'
 import { date } from '../fields/date.js'
 import { title } from '../fields/title.js'
@@ -17,18 +17,16 @@ const posts = {
     create: true,
 
     editor: { preview: false },
-    // preview_path: "/news/",
-
     // #i18n: true,
 
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
     path: '{{year}}/{{month}}/{{slug}}',
+
+    filter: { field: 'isIndex', value: false },
     summary: '{{title}} — {{year}}/{{month}}/{{day}}',
 
-    filter: { field: 'index', value: false },
-
     fields: [
-        index,
+        isNotIndex,
         draft,
         date,
         title,

@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isNotIndex } from '../fields/is-not-index.js'
 import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
@@ -17,19 +17,17 @@ const persons = {
     description: 'Toutes les personnes',
 
     editor: { preview: false },
-    // preview_path: "/persons/",
-
     // #i18n: true,
 
     nested: { depth: 2 },
+    filter: { field: 'isIndex', value: false },
+    summary: '{{title}}',
 
     slug: '{{slug}}',
     path: '{{slug}}/_index',
 
-    filter: { field: 'index', value: false },
-
     fields: [
-        index,
+        isNotIndex,
         draft,
         title,
         statutes,

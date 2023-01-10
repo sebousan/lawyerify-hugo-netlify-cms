@@ -7,5 +7,6 @@ export const persons = {
     value_field: 'title',
     display_fields: ['title'],
     multiple: true,
-    required: false
+    required: false,
+    i18n: 'duplicate'
 }

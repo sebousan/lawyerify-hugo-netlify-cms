@@ -1,3 +1,4 @@
+import { isIndex } from '../fields/is-index.js'
 import { title } from '../fields/title.js'
 import { hero } from '../fields/hero.js'
 import { blocks } from '../blocks/blocks.js'
@@ -10,15 +11,14 @@ const indexes = {
     description: 'La page principale de chaque rubrique',
 
     editor: { preview: false },
-
     // #i18n: true,
 
     nested: { depth: 3 },
-    filter: { field: 'index', value: true },
+    filter: { field: 'isIndex', value: true },
     summary: '{{title}}',
 
     fields: [
-        { name: 'index', label: 'Index', widget: 'hidden', default: true, required: false, i18n: 'duplicate' },
+        isIndex,
         title,
         hero,
         blocks

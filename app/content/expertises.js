@@ -1,4 +1,4 @@
-import { index } from '../fields/index.js'
+import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { body } from '../fields/body.js'
@@ -12,23 +12,20 @@ const expertises = {
     description: 'Toutes les expertises (droit du travail, de la famille…)',
 
     editor: { preview: false },
-    // preview_path: "/expertises/",
-
     // #i18n: true,
 
     slug: '{{slug}}',
     path: '{{slug}}/_index',
+    summary: '{{title}}',
 
     nested: { depth: 2 },
-    filter: { field: 'index', value: false },
+    filter: { field: 'isIndex', value: false },
 
     fields: [
-
-        index,
+        isNotIndex,
         title,
         description,
         body
-
     ]
 }
 
