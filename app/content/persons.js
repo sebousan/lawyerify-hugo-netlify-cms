@@ -3,10 +3,12 @@ import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { statutes } from '../fields/statutes.js'
+import { relatedPersons } from '../fields/related-persons.js'
 import { expertises } from '../fields/expertises.js'
 import { featured_image } from '../fields/featured-image.js'
 import { contact } from '../fields/contact.js'
 import { body } from '../fields/body.js'
+console.log(relatedPersons)
 
 const persons = {
     name: 'persons',
@@ -32,6 +34,7 @@ const persons = {
         title,
         statutes,
         expertises,
+        relatedPersons,
         description,
         featured_image,
         contact,
