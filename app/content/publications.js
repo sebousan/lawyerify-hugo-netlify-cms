@@ -7,6 +7,7 @@ import { press } from '../fields/press.js'
 import { featured_image } from '../fields/featured-image.js'
 import { images } from '../fields/images.js'
 import { body } from '../fields/body.js'
+import { quoters } from '../fields/quoters.js'
 
 const publications = {
     name: 'publications',
@@ -21,7 +22,6 @@ const publications = {
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
     path: '{{year}}/{{month}}/{{slug}}',
 
-    nested: { depth: 2 },
     filter: { field: 'isIndex', value: false },
     summary: '{{title}} — {{year}}',
 
@@ -29,6 +29,7 @@ const publications = {
         isNotIndex,
         draft,
         date,
+        quoters,
         title,
         description,
         featured_image,
