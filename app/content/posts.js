@@ -29,11 +29,11 @@ const posts = {
         isNotIndex,
         draft,
         date,
+        authors,
         title,
         description,
         categories,
         tags,
-        authors,
         featured_image,
         body
     ]
