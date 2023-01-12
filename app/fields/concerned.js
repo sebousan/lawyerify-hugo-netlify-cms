@@ -1,6 +1,6 @@
-export const quoters = {
-    name: 'quoters',
-    label: 'Personnes citées ?',
+export const concerned = {
+    name: 'concerned',
+    label: 'Personnes concernées ?',
     hint: 'Plusieurs personnes possible',
     widget: 'relation',
     collection: 'persons',

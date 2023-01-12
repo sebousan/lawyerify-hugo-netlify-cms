@@ -4,7 +4,7 @@ import { date } from '../fields/date.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { press } from '../fields/press.js'
-import { quoters } from '../fields/quoters.js'
+import { concerned } from '../fields/concerned.js'
 
 const publications = {
     name: 'publications',
@@ -26,7 +26,7 @@ const publications = {
         isNotIndex,
         draft,
         date,
-        quoters,
+        concerned,
         title,
         description,
         press
