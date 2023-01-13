@@ -2,6 +2,9 @@
 // import CMS, { init } from 'netlify-cms'
 const { CMS, initCMS: init } = window;
 
+// Widgets additional
+import './app/widgets/index.js';
+
 // Import config
 import config from './app/config.js';
 
