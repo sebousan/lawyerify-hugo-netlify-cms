@@ -2,6 +2,7 @@ import { isNotIndex } from '../fields/is-not-index.js'
 import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
+import { offices } from '../fields/offices.js'
 import { statutes } from '../fields/statutes.js'
 import { relatedPersons } from '../fields/related-persons.js'
 import { expertises } from '../fields/expertises.js'
@@ -32,6 +33,7 @@ const persons = {
         isNotIndex,
         draft,
         title,
+        offices,
         statutes,
         expertises,
         relatedPersons,
