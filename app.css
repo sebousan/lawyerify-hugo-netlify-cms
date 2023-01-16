@@ -166,6 +166,11 @@ div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
 [id^=image-field] div {
     background-color: transparent;
 }
+[id^=image-field] button {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
 [id^=image-field] [class*="-ControlContainer"]:nth-child(2),
 [id^=images-field] [class*="-ControlContainer"]:nth-child(2) {
     clear: none;

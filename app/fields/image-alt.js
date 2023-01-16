@@ -4,5 +4,5 @@ export const image_alt = {
     widget: 'string',
     required: false,
     i18n: true,
-    hint: 'Pour une image porteuse d’information (laisser vide si image de décoration)'
+    hint: 'Seulement pour une image porteuse d’information (laisser vide si image de décoration)'
 }
