@@ -2,6 +2,7 @@ import { isNotIndex } from '../fields/is-not-index.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { body } from '../fields/body.js'
+import { featured_image } from '../fields/featured-image.js'
 
 const expertises = {
     name: 'expertises',
@@ -25,7 +26,8 @@ const expertises = {
         isNotIndex,
         title,
         description,
-        body
+        body,
+        featured_image
     ]
 }
 
