@@ -1,6 +1,6 @@
-export const align = {
-    name: 'align',
-    label: 'Alignement du texte',
+export const offset = {
+    name: 'offset',
+    label: 'Alignement du bloc',
     widget: 'select',
     options: [
         { label: 'à gauche', value: 'start' },

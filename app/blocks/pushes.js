@@ -1,9 +1,9 @@
-import { image_src } from '../fields/image-src.js'
-import { image_alt } from '../fields/image-alt.js'
+import { image } from '../fields/image.js'
 import { title } from '../fields/title.js'
 import { text } from '../fields/text.js'
+import { column_simple } from '../fields/column-simple.js'
 import { cta } from '../fields/cta.js'
-import { align } from '../fields/align.js'
+import { offset } from '../fields/offset.js'
 import { background } from '../fields/background.js'
 
 export const block_pushes = {
@@ -12,21 +12,12 @@ export const block_pushes = {
     widget: 'object',
     required: false,
     i18n: true,
-    collapsed: true,
+    collapsed: false,
     summary: '{{title}}',
     fields: [
         title,
         text,
-        { 
-            name: 'column',
-            label: 'Nombre de colonnes',
-            widget: 'number',
-            min: 1,
-            max: 2,
-            value_type: 'int',
-            default: 1,
-            i18n: 'duplicate'
-        },
+        column_simple,
         {
             name: 'items',
             label: 'Pushes',
@@ -37,19 +28,8 @@ export const block_pushes = {
             collapsed: true,
             summary: '{{title}}',
             fields: [
-                {
-                    name: 'image',
-                    label: 'Image',
-                    widget: 'object',
-                    required: false,
-                    i18n: true,
-                    collapsed: true,
-                    fields: [
-                        image_src,
-                        image_alt,
-                    ]
-                },
-                align,
+                image,
+                offset,
                 title,
                 text,
                 cta
