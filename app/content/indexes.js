@@ -13,7 +13,7 @@ const indexes = {
     editor: { preview: false },
     // #i18n: true,
 
-    nested: { depth: 3 },
+    nested: { depth: 2 },
     filter: { field: 'isIndex', value: true },
     summary: '{{title}}',
 

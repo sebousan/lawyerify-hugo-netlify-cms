@@ -9,7 +9,6 @@ import { expertises } from '../fields/expertises.js'
 import { featured_image } from '../fields/featured-image.js'
 import { contact } from '../fields/contact.js'
 import { body } from '../fields/body.js'
-console.log(relatedPersons)
 
 const persons = {
     name: 'persons',
@@ -27,7 +26,6 @@ const persons = {
     summary: '{{title}}',
 
     slug: '{{slug}}',
-    // path: '{{slug}}/_index',
 
     fields: [
         isNotIndex,
