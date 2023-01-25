@@ -1,5 +1,6 @@
 import { isIndex } from '../fields/is-index.js'
 import { title } from '../fields/title.js'
+import { description } from '../fields/description.js'
 import { hero } from '../fields/hero.js'
 import { blocks } from '../blocks/blocks.js'
 
@@ -20,6 +21,7 @@ const indexes = {
     fields: [
         isIndex,
         title,
+        description,
         hero,
         blocks
     ]
