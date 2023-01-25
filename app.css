@@ -12,7 +12,7 @@
 
 /* Header */
 header nav::before {
-    background: url("./logo-lawyerify.svg") no-repeat;
+    background: url("./logo-lawyerify-h.svg") no-repeat;
     background-size: contain;
     content: '';
     float: left;
